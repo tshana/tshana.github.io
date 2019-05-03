@@ -6,18 +6,19 @@ body{ background-color: gray;
 
 .typed-cursor {
   /* color: #bf4aa8; */
-  color: grey;
+  color: #fbfbfb;
   font-size: 48px;
   border-right: 10px solid #bf4aa8;  
 }
-nav li a, #typeName
+nav li a, #typeName,h1
 { font-family: 'Montserrat', serif; color: #51d0de }
 
-p{ font-family: 'Lora', 'Times New Roman' }
+p{ font-family: 'Lora', 'Times New Roman'; margin: 0  ; }
 
 nav li{
   display: inline-block;
   padding-right: 5%;
+  padding-top: 1vh;
 }
 
 nav li a{
@@ -25,10 +26,18 @@ nav li a{
   font-size: 32px;
   
 }
+.row{ max-width: 1140px; margin: 0 auto; padding-bottom: 2% ; background-color: #fbfbfb; }
 
 
 nav li a:hover{ border-bottom: 5px solid #bf4aa8; }
 
-.writer{
-  margin: 8%;
+nav ul {  text-align: right; }
+
+.subHeaders{ color: #bf4aa8; margin:0;}
+
+
+.fa-3x {
+  margin-left: 5%; color: #747fe0;
 }
+
+.navHdr{ text-align: center; margin: 0; padding-top: 2vh; }
