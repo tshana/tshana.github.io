@@ -1,12 +1,12 @@
-body{ background-color: gray;  
-/* Use for background later #fbfbfb */
+body{ background-color: #ecf0f1;  
+/* Use for background later #fbfbfb or #ecf0f1 */
 }
 
 #typeName { font-size: 48px;  }
 
 .typed-cursor {
   /* color: #bf4aa8; */
-  color: #fbfbfb;
+  color: #ecf0f1;
   font-size: 48px;
   border-right: 10px solid #bf4aa8;  
 }
@@ -26,18 +26,47 @@ nav li a{
   font-size: 32px;
   
 }
-.row{ max-width: 1140px; margin: 0 auto; padding-bottom: 2% ; background-color: #fbfbfb; }
+.row{ max-width: 1140px; margin: 0 auto; padding-bottom: 2% ; background-color: #ecf0f1; }
 
 
-nav li a:hover{ border-bottom: 5px solid #bf4aa8; }
+nav li a:hover{ border-bottom: 5px solid #bf4aa8; color: #224ba3;}
 
 nav ul {  text-align: right; }
 
 .subHeaders{ color: #bf4aa8; margin:0;}
 
 
-.fa-3x {
-  margin-left: 5%; color: #747fe0;
-}
+.fa-3x { margin-left: 5%; color: #747fe0; }
 
 .navHdr{ text-align: center; margin: 0; padding-top: 2vh; }
+
+
+
+.card{
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.left{
+width: 50%;
+float: left;
+height: 300px;
+
+}
+.right{
+  width: 50%;
+  background-color: #fbfbfb;
+  float: left;
+  height: 100%;
+}
+
+.right h1{
+  color: #564787;
+  margin: 5px 0;
+}
+.right p{
+  /* font-size: 16px; */
+  margin-top: 10%;
+}
