@@ -9,15 +9,12 @@
   <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 
-<body>
-  
+<body>  
   <nav class="row">
     <ul>
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">Contact Me</a></li>
-      <li><a href="#">More</a></li>
+      <li><a href="#projectsList">Projects</a></li>
+      <li><a href="#contactMe">Contact</a></li>
       <li><a href="#"><span title="Dark Theme"><i class="far fa-moon"></i></span></a></li>  
-      <!-- Place Dark Theme Icon -->
     </ul>
   </nav>
 
@@ -35,23 +32,28 @@
 
   <div id="interests">
     <div class="row">
+      
       <h1 class="subHeaders">Interests</h1>
       <div class="headerRow">
-        <i class="fas fa-basketball-ball fa-3x"></i>
-        <i class="fab fa-android fa-3x"></i>
-        <i class="fas fa-music fa-3x"></i>
+        <i class="fas fa-basketball-ball fa-5x"></i>
+        <i class="fab fa-android fa-5x"></i>
+        <i class="fas fa-music fa-5x"></i>
+        <i class="fab fa-steam-symbol fa-5x"></i>
       </div>
-      
+
       <h1 class="subHeaders">Profecient Languages</h1>
       <div class="headerRow">
-        <i class="fab fa-js fa-3x"></i>
-        <i class="fab fa-html5 fa-3x"></i>
-        <i class="fab fa-java fa-3x"></i>
+        <i class="fab fa-js fa-5x"></i>
+        <i class="fab fa-html5 fa-5x"></i>
+        <i class="fab fa-java fa-5x"></i>
+        <i class="fab fa-react fa-5x"></i>
       </div>
+      
       <h1 class="subHeaders">Education</h1>
-      <div class="headerRow">
-        <p>ASU</p>
-      </div>
+      <div class="headerRow"><h2>BS in Computer Informatics - Arizona State University - May 2019</h2></div>
+
+      <!-- Maybe Create a news headline of important classes I've taken. -->
+
     </div>
   </div>
 
@@ -59,11 +61,12 @@
     <h1 class="navHdr">Projects</h1>
 
     <div class="card">
-      <img class ="left" src="images/ServicePlace_snap.png">
+      <img class="left" src="images/ServicePlace_snap.png">
       <div class="right">
         <h1>ServicePlace Eldercare System App</h1>
         <p> Designed and implemented an Android application for a nonprofit organization called ServicePlace.
           The app was created in React Native. The backend uses .NET web services hosted on a Linux virtual machine in an AWS (Amazon Web Services)  ec2 instance.   </p>
+        <a href="#"><h4>GitHub Code <i class="fas fa-external-link-alt"></i></h4></a>
       </div>   
     </div>
 
@@ -73,27 +76,34 @@
         <h1>NinjaWatch</h1>
         <p> Designed a Fruit Ninja clone using Swift's SpriteKit framework. The objects in the game are Overwatch charachters and each
           character has a certain amount of point values that either reduce or increase the players points. </p>
+          <a href="#"><h4>GitHub Code <i class="fas fa-external-link-alt"></i></h4></a>
       </div>
     </div> 
 
     <div class="card">
-        <img class ="left" src="images/Ninjawatch_snap.png">
-        <div class="right">
-          <h1>Portfolio</h1>
-          <p> Designed my portfolio using HTML5, CSS3, and minimal Javascript. THe site is responsive and ....</p>
-        </div>
-      </div> 
-
-
+      <img class ="left" src="images/Portfolio_snap.png">
+      <div class="right">
+        <h1>Personal Gaming Website</h1>
+        <p> Designed a website for my online video game personality. It is a landing page for people who want to see what other social media I participate in.
+          Uses HTML5, CSS3, and minimal Javascript to make the website responsive.</p>
+        <a href="#"><h4>GitHub Code <i class="fas fa-external-link-alt"></i></h4></a>
+      </div>
+    </div> 
+  </div>
+  
+  <div id="contactMe" class="row">
+    <h1 class="navHdr">Contact Me</h1>
+    <p>taseen.shana@gmail.com</p>
+    <a href="https://github.com/tshana"><i class="fab fa-github fa-3x"></i></a>
+    <a href="mailto:taseen.shana@gmail.com"><i class="fas fa-envelope-square fa-3x"></i></a>
   </div>
   
   </div>
 
-  
-  
 
-<!-- A JavaScript Typing Animation Library http://www.mattboldt.com/demos/typed-js/ -->
+<!-- http://www.mattboldt.com/demos/typed-js/ -->
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
 </body>
 

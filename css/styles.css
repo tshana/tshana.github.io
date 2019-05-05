@@ -21,11 +21,7 @@ nav li{
   padding-top: 1vh;
 }
 
-nav li a{
-  text-decoration: none;
-  font-size: 32px;
-  
-}
+nav li a{ text-decoration: none; font-size: 32px; }
 .row{ max-width: 1140px; margin: 0 auto; padding-bottom: 2% ; background-color: #ecf0f1; }
 
 
@@ -33,13 +29,13 @@ nav li a:hover{ border-bottom: 5px solid #bf4aa8; color: #224ba3;}
 
 nav ul {  text-align: right; }
 
-.subHeaders{ color: #bf4aa8; margin:0;}
-
-
-.fa-3x { margin-left: 5%; color: #747fe0; }
-
 .navHdr{ text-align: center; margin: 0; padding-top: 2vh; }
 
+.headerRow{ margin-top: 15px; }
+.headerRow h2{ font-size: 20px; color: #747fe0; }
+.subHeaders{ color: #bf4aa8; margin-top:15px;}
+
+.fa-5x { margin-left: 5%; color: #747fe0; }
 
 
 .card{
@@ -66,7 +62,28 @@ height: 300px;
   color: #564787;
   margin: 5px 0;
 }
-.right p{
-  /* font-size: 16px; */
-  margin-top: 10%;
+.right p{ margin-top: 10%; }
+.right h4{
+  display: inline-block;
+  margin: 15px 0;
+  padding: 10px;
+  border: 2px solid #51d0de;
+  color: #51d0de;
+  border-radius: 5px;
 }
+
+.right h4:hover{
+  color: #224ba3;
+  background-color: #747fe0;
+  border:2px solid #747fe0;
+}
+
+.fa-3x{
+  margin-right: 25px;
+  color: #51d0de;
+}
+
+#contactMe{ text-align: center; }
+#contactMe p{ padding: 35px 0;}
+#contactMe i:hover{ color: #224ba3; }
+#contactMe i{ padding-left: 25px;}
