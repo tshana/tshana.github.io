@@ -1,3 +1,3 @@
 # Portfolio
 
-Professional portfolio. Can be accessed at:  
+Professional portfolio. Can be viewed at: tshana@github.io

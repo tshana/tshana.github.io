@@ -1,0 +1,33 @@
+@media only screen and (max-width: 768px){
+  .right p{
+
+    font-size: 14px;
+  }
+  .right h1{
+    color: #564787;
+    margin: 5px 0;
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .left{ display: none; }
+  .right{ width:100%; }
+}
+@media only screen and (max-width: 475px){
+  nav li a{ font-size: 24px; }
+  .fa-5x { font-size: 3.0em; }
+}
+
+@media only screen and (max-width: 425px){
+  nav li a{ font-size: 20px; }
+  p{ font-size: 14px;}
+  .fa-5x { font-size: 3.0em; }
+  .subHeaders{ font-size: 24px; }
+  .headerRow h2{ font-size: 14px; }
+}
+
+@media only screen and (max-width: 364px){
+  .typed-cursor,#typeName { font-size: 36px; }
+
+}
