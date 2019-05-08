@@ -17,3 +17,9 @@ $('a[href*="#"]').not('[href="#"]').not('[href="#0"]').click(function(event) {
       $('html, body').animate({ scrollTop: target.offset().top - 40}, 1000);}
     }
   });
+
+
+  document.querySelector('.dark').addEventListener("click",
+  function(){
+    alert("Dark Mode is still being developed")}
+    )
