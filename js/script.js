@@ -21,5 +21,6 @@ $('a[href*="#"]').not('[href="#"]').not('[href="#0"]').click(function(event) {
 
   document.querySelector('.dark').addEventListener("click",
   function(){
-    alert("Dark Mode is still being developed")}
-    )
+      if($('body').attr("data-theme") == "light"){ $('body').attr("data-theme","dark")}
+      else if($('body').attr("data-theme") =="dark"){ $('body').attr("data-theme","light")}   
+  })

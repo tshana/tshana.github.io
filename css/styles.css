@@ -1,19 +1,32 @@
-body{ background-color: #ecf0f1;  
+body{ 
+  background-color: var(--bg);  
 /* Use for background later #fbfbfb or #ecf0f1 */
+--bg: #ecf0f1;
+--p: #000;
+--card-bg: #fbfbfb;
+--card-h1: #564787;
+}
+
+/* Dark theme: * BODY: background-color: rgb(26, 34, 36) P: Color Font: #e8e6e3 */
+body[data-theme="dark"]{
+  --bg: #242424;
+  --p: #fff;
+  --card-bg: #434343;
+  --card-h1: #C2B9D4;
 }
 
 #typeName { font-size: 48px;  }
 
 .typed-cursor {
   /* color: #bf4aa8; */
-  color: #ecf0f1;
+  color: var(--bg);
   font-size: 48px;
   border-right: 10px solid #bf4aa8;  
 }
 nav li a, #typeName,h1
 { font-family: 'Montserrat', serif; color: #51d0de }
 
-p{ font-family: 'Lora', 'Times New Roman'; margin: 0  ; }
+p{ font-family: 'Lora', 'Times New Roman'; margin: 0; color: var(--p)   }
 
 nav li{
   display: inline-block;
@@ -22,7 +35,7 @@ nav li{
 }
 
 nav li a{ text-decoration: none; font-size: 32px; }
-.row{ max-width: 1140px; margin: 0 auto; padding-bottom: 2% ; background-color: #ecf0f1; }
+.row{ max-width: 1140px; margin: 0 auto; padding-bottom: 2% ; background-color: var(--bg); }
 
 
 nav li a:hover{ border-bottom: 5px solid #bf4aa8; color: #224ba3;}
@@ -53,13 +66,13 @@ height: 300px;
 }
 .right{
   width: 50%;
-  background-color: #fbfbfb;
+  background-color: var(--card-bg);
   float: left;
   height: 100%;
 }
 
 .right h1{
-  color: #564787;
+  color: var(--card-h1);
   margin: 5px 0;
 }
 .right p{ margin-top: 10%; }
@@ -87,3 +100,8 @@ height: 300px;
 #contactMe p{ padding: 35px 0;}
 #contactMe i:hover{ color: #224ba3; }
 #contactMe i{ padding-left: 25px;}
+
+
+a:hover{
+  cursor: pointer;
+}
