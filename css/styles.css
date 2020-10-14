@@ -5,6 +5,7 @@ body{
 --p: #000;
 --card-bg: #fbfbfb;
 --card-h1: #564787;
+transition: background-color .6s ease-in;
 }
 
 /* Dark theme: * BODY: background-color: rgb(26, 34, 36) P: Color Font: #e8e6e3 */
@@ -12,7 +13,12 @@ body[data-theme="dark"]{
   --bg: #242424;
   --p: #fff;
   --card-bg: #434343;
-  --card-h1: #C2B9D4;
+  --card-h1: #C2B9D4;  
+}
+
+div, nav{
+transition: background-color .6s ease-in;
+
 }
 
 #typeName { font-size: 48px;  }
@@ -69,11 +75,14 @@ height: 300px;
   background-color: var(--card-bg);
   float: left;
   height: 100%;
+  transition: background-color 1.5s ease-in;
+
 }
 
 .right h1{
   color: var(--card-h1);
   margin: 5px 0;
+  transition: background-color 1.5s ease-in;
 }
 .right p{ margin-top: 10%; }
 .right h4{
